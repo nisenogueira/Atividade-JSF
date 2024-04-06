@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.campo-texto {
+    /* Propriedades de estilo para tamanho */
+    width: 200px; /* Largura */
+    height: 30px; /* Altura */
+    padding: 5px; /* Espaço interno */
+    margin: 5px; /* Espaço externo */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 15px; /* Arredondamento */
+    font-size: 25px; /* Tamanho da fonte */
+    color: #020080; /* Cor do texto */
+}
+
+.campo-botao {
+    /* Propriedades de estilo para o botão */
+    background-color: #400080; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Decoração do texto */
+    display: inline-block; /* Exibição em bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor do mouse */
+    border-radius: 10px; /* Arredondamento */
+}
+
+html {
+    font-size: 25px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+    font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+    margin: 10px 10px; /* Margem */
+    
+}

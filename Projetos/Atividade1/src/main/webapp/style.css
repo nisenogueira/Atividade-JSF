@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin:  0; 
+    padding: 0;
+    }
+
+header {
+    background-color: #939393;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    .logo {
+    position: absolute;
+    top: 30px; right: 20px;
+    }
+    
+}
+
+.recuo {
+    display: inline-block;
+    width: 400px;
+}
+
+
+section {
+    margin: 50px 80px 50px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #939393;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

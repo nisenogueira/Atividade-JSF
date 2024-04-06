@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.campo-texto {
+  /* Propriedades de estilo para tamanho */
+  width: 300px; /* Largura */
+  height: 30px; /* Altura */
+  padding: 5px; /* Espaço interno */
+  margin: 5px; /* Espaço externo */
+
+  /* Outras propriedades de estilo (opcional) */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 15px; /* Arredondamento */
+  font-size: 15px; /* Tamanho da fonte */
+  color: #020080; /* Cor do texto */
+}
+html {
+  font-size: 20px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+  font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+}
